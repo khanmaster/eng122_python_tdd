@@ -21,7 +21,7 @@ class Caltests(unittest.TestCase):
         self.assertEqual(self.calc_obj.divide(6, 3), 2)
 
 ```
-
+- run `python -m pytest -v`
 ### refector code to pass tests
 ```python
 class SimpleCalc:
